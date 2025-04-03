@@ -1,0 +1,237 @@
+body {
+    background-color: white;
+}
+h1 {
+    font-family: "Jost", sans-serif;
+    color: #FF00CA;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+  font-family: "Jost", sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h3 {
+  font-family: "Jost", sans-serif;
+  color: #FF00CA;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+p {
+    font-family: "Jost", sans-serif;
+    color: black;
+    font-size: 20pt;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+a {
+  color: #FF00CA;
+}
+
+button {
+  background-color: black; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  max-width: 500px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Jost", sans-serif;
+  border-radius: 50px;
+}
+
+.currentbutton {
+  background-color: #FF00CA;
+  color: black;
+}
+
+button:hover {
+  background-color: #FF00CA;
+  color: black;
+}
+
+.output a:visited {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFCA00;
+    text-decoration: none; 
+    font-size: 20pt;
+    text-align: left; 
+    padding-left: 30px;
+  }
+
+  .output {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFCA00;
+    text-decoration: none; 
+    font-size: 20pt;
+    text-align: left; 
+    padding-left: 30px;
+  }
+
+  .burst {
+    background-color: gold;
+    align-self: center;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+  }
+
+.gallery-grid {
+    column-count: 4;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    column-gap: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+.gallery-item {
+    break-inside: avoid;
+    margin-bottom: 10px;
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.grid-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    gap: 0px;
+    padding: 0px;
+  }
+
+  .grid-item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.grid-item2 {
+    background-image: linear-gradient(to bottom, white 30%, #8080B3 60%, #0B0072 90%);
+}
+
+.fte {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
+
+.weeburst {
+    width: 150px;
+    height: auto;
+  }
+  
+  .weeplaza {
+    width: 100px;
+    height: auto;
+  }
+  
+  .weegrowth {
+    width: 100px;
+    height: auto;
+  }
+  
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.card {
+text-align: center;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+
+
+@media (max-width:768px) {
+    .gallery-grid {
+        column-count: 2;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    button {
+      font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .gallery-grid {
+            column-count: 3;
+            margin-left: 10px;
+        margin-right: 10px;
+}
+
+button {
+  font-size: 25px;
+}
+
+}
+
+@media (min-width: 800px) {
+  .fte {
+  width: 60%;
+  }
+  }
+
+@media (min-width: 1000px) {
+.fte {
+width: 30%;
+}
+}
+
+@media (min-width: 1500px) {
+  .fte {
+  width: 25%;
+  }
+
+h3 {
+  margin-left: 500px;
+  margin-right: 500px;
+
+}
+}
